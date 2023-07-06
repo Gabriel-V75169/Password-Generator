@@ -16,6 +16,8 @@ var numbStr = "0123456789"
 const numb = numbStr.split('');
 
 
+
+
 const generatePass = [];
 
 function writePassword() {
@@ -30,7 +32,9 @@ function writePassword() {
 function generatePassword() {
   passLen = prompt("What is the length of the password between 8 and 128", "i.e. 10");
   
-  
+  var numbPrompt = false;
+  var upperPrompt = false;
+  var specialPrompt = false;
 
   while (isNaN(passLen) || passLen > 128 || passLen < 8 || passLen - Math.floor(passLen) !== 0){
     passLen = prompt("Invalid try again")
@@ -45,6 +49,7 @@ function generatePassword() {
   
   if (confirm("Do I include Capital Letters") == true) {
     upperPrompt = true;
+    console.log(confirm("Do I include Capital Letters"))
   }
 
   if (upperPrompt == true) {
@@ -56,7 +61,7 @@ function generatePassword() {
   
 
 if (confirm("Do I include Numbers") == true) {
-  var numbPrompt = true;
+  numbPrompt = true;
 }
   
     
