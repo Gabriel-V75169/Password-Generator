@@ -18,7 +18,7 @@ I used google in order to find out which windows prompts I wanted to use and opt
 
 ### Executing program
 
-[Pages](https://gabriel-v75169.github.io/Password-Generator/)
+[Pages](https://gabriel-v75169.github.io/Pasword-Generator/)
 
 ## Author(s)
 
