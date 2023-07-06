@@ -56,7 +56,7 @@ function generatePassword() {
   
 
 if (confirm("Do I include Numbers") == true) {
-  numbPrompt = true;
+  var numbPrompt = true;
 }
   
     
